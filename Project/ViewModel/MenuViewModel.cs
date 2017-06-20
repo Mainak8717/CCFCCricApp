@@ -12,7 +12,7 @@ namespace CCFCCricApp
 		public MenuViewModel()
 		{
 			MenuItems = new List<SideMenuItem>();
-			var page1 = new SideMenuItem() { Title = "Home", Icon = "Home_Icon.png", TargetType = typeof(CCFC_HomeScreen) };
+			var page1 = new SideMenuItem() { Title = "Home", Icon = "Home_Icon.png", TargetType = typeof(CCFC_HomeScreen)};
 			var page2 = new SideMenuItem() { Title = "Teams", Icon = "team_icon.png"};
 			var page3 = new SideMenuItem() { Title = "Calendar 2017", Icon = "Calendar_Icon.png"};
 			var page4 = new SideMenuItem() { Title = "Tournaments", Icon = "Tournament_Icon.png"};

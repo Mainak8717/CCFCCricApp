@@ -35,6 +35,9 @@
     <EmbeddedResource Include="Project\View\CCFC_MasterDetailPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Project\Controller\CCFC_TeamScreen.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -48,6 +51,7 @@
     <Compile Include="Project\ViewModel\HomeScreenViewModel.cs" />
     <Compile Include="Project\Model\CommitteeMembers.cs" />
     <Compile Include="Project\Model\CommitteeMemberWrapper.cs" />
+    <Compile Include="Project\View\CCFC_TeamScreen.xaml.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

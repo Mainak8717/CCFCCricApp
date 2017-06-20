@@ -110,6 +110,7 @@
     <ImageAsset Include="Assets.xcassets\LaunchScreenBlurImg.imageset\blur.jpg" />
     <ImageAsset Include="Assets.xcassets\HomeScreenImage.imageset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\HomeScreenImage.imageset\ccfc.jpg" />
+    <ImageAsset Include="Assets.xcassets\Captain.imageset\Contents.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
@@ -117,6 +118,9 @@
     <Folder Include="Assets.xcassets\CCFC_Logo.imageset\" />
     <Folder Include="Assets.xcassets\LaunchScreenBlurImg.imageset\" />
     <Folder Include="Assets.xcassets\HomeScreenImage.imageset\" />
+    <Folder Include="Assets.xcassets\PresidentImg.imageset\" />
+    <Folder Include="Assets.xcassets\SportsCoordi.imageset\" />
+    <Folder Include="Assets.xcassets\Captain.imageset\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
