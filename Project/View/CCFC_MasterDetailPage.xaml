@@ -25,7 +25,7 @@
                   RowHeight="60"
                   SeparatorVisibility="None"
                   BackgroundColor="#e8e8e8"
-                  ItemSelected="OnMenuItemSelected">
+				  ItemsSource = "{Binding MenuItems}">
 
           <ListView.ItemTemplate>
             <DataTemplate>

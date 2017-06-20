@@ -1,10 +1,12 @@
-﻿<Properties StartupConfiguration="{67F63FEC-DCEC-4C90-96FA-3219BD17F633}|Default">
+﻿<Properties StartupConfiguration="{67F63FEC-DCEC-4C90-96FA-3219BD17F633}|Default" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.ItemProperties.CCFCCricApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C6481B53-81B0-4E10-AF35-C0C5C6E7BC8C" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Project/ViewModel/HomeScreenViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CCFCCricApp Status">
     <Files>
+      <File FileName="Project/ViewModel/MenuViewModel.cs" Line="8" Column="38" />
       <File FileName="Project/ViewModel/HomeScreenViewModel.cs" Line="10" Column="73" />
-      <File FileName="Project/Controller/CCFC_HomeScreen.xaml.cs" Line="14" Column="1" />
-      <File FileName="Project/View/CCFC_HomeScreen.xaml" Line="9" Column="75" />
+      <File FileName="Project/Controller/CCFC_MasterDetailPage.xaml.cs" Line="16" Column="41" />
+      <File FileName="Project/View/CCFC_MasterDetailPage.xaml" Line="28" Column="7" />
+      <File FileName="CCFCCricApp Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
