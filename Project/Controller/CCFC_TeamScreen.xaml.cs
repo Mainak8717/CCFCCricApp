@@ -10,6 +10,7 @@ namespace CCFCCricApp
 		public CCFC_TeamScreen()
 		{
 			InitializeComponent();
+			BindingContext = new TeamViewModel();
 		}
 	}
 }

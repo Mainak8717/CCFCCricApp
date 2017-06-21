@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="CCFCCricApp.CCFC_TeamScreen">
+	<StackLayout Orientation = "Vertical">
+		<StackLayout Orientation = "Horizontal" Spacing = "5" HorizontalOptions = "FillAndExpand" Padding = "5,5,5,5">
+			<StackLayout Orientation = "Vertical" HorizontalOptions = "FillAndExpand" Spacing = "2" BackgroundColor = "White">
+				<Button x:Name= "ATeam" 
+					Text = "A Team"
+					TextColor = "White"
+		 			BackgroundColor = "{Binding TeamAButtonBackgroundColor}" 
+			    	HeightRequest = "40"
+					BorderRadius = "9" 
+			    	HorizontalOptions = "FillAndExpand"
+					FontAttributes = "Bold"
+					Command = "{Binding TeamButtonClick}"
+					CommandParameter = "TeamA"/>
+			</StackLayout>
+			<StackLayout Orientation = "Vertical" HorizontalOptions = "FillAndExpand" Spacing = "2" BackgroundColor = "White">
+				<Button x:Name= "BTeam" 
+					Text = "B Team"
+					TextColor = "White"
+		 			BackgroundColor = "{Binding TeamBButtonBackgroundColor}"
+					BorderRadius = "9" 
+			   		HeightRequest = "40" 
+			   	    HorizontalOptions = "FillAndExpand"
+					FontAttributes = "Bold"
+					Command = "{Binding TeamButtonClick}"
+					CommandParameter = "TeamB"/>
+			</StackLayout>
+			<StackLayout Orientation = "Vertical" HorizontalOptions = "FillAndExpand" Spacing = "2" BackgroundColor = "White">
+				<Button x:Name = "CTeam" 
+					Text = "C Team"
+					TextColor = "White"
+		 			BackgroundColor = "{Binding TeamCButtonBackgroundColor}"
+					BorderRadius = "9" 
+			   		HeightRequest ="40" 
+			    	HorizontalOptions = "FillAndExpand"
+					FontAttributes = "Bold"
+					Command = "{Binding TeamButtonClick}"
+					CommandParameter = "TeamC"/>
+			</StackLayout>
+		</StackLayout>
+	<ListView x:Name="TeamMembersListView" SeparatorVisibility ="None" ItemsSource = "{Binding CommonList}">
+	    <ListView.ItemTemplate>
+	      <DataTemplate >
+	        <TextCell Text="{Binding .}" />
+	      </DataTemplate>
+	    </ListView.ItemTemplate>
+  </ListView>
+</StackLayout>
+	</ContentPage>

@@ -1,14 +1,20 @@
 ﻿<Properties StartupConfiguration="{67F63FEC-DCEC-4C90-96FA-3219BD17F633}|Default" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.ItemProperties.CCFCCricApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E48B4C87-6E51-449A-974B-D2D685100032" />
+  <MonoDevelop.Ide.ItemProperties.CCFCCricApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.6cc744c564e3d03e877b9ce586f10ca933ccd737" />
   <MonoDevelop.Ide.Workbench ActiveDocument="CCFCCricApp Status">
     <Files>
       <File FileName="CCFCCricApp Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/Mainak/Desktop/CCFCCricApp/Project/Controller/CCFC_MasterDetailPage.xaml.cs" relfile="Project/Controller/CCFC_MasterDetailPage.xaml.cs" line="21" column="1" />
+      <Breakpoint enabled="false" file="/Users/rajlakshmi/Desktop/CCFCCricApp/Project/ViewModel/TeamViewModel.cs" relfile="Project/ViewModel/TeamViewModel.cs" line="70" column="1" />
+      <Breakpoint enabled="false" file="/Users/rajlakshmi/Desktop/CCFCCricApp/Project/ViewModel/TeamViewModel.cs" relfile="Project/ViewModel/TeamViewModel.cs" line="57" column="1" />
+      <Breakpoint enabled="false" file="/Users/rajlakshmi/Desktop/CCFCCricApp/Project/ViewModel/TeamViewModel.cs" relfile="Project/ViewModel/TeamViewModel.cs" line="44" column="1" />
+      <Breakpoint enabled="false" file="/Users/rajlakshmi/Desktop/CCFCCricApp/Project/ViewModel/TeamViewModel.cs" relfile="Project/ViewModel/TeamViewModel.cs" line="79" column="1" />
+      <Breakpoint enabled="false" file="/Users/rajlakshmi/Desktop/CCFCCricApp/Project/ViewModel/TeamViewModel.cs" relfile="Project/ViewModel/TeamViewModel.cs" line="80" column="1" />
+      <Breakpoint enabled="false" file="/Users/rajlakshmi/Desktop/CCFCCricApp/Project/ViewModel/TeamViewModel.cs" relfile="Project/ViewModel/TeamViewModel.cs" line="81" column="44" />
+      <Breakpoint file="/Users/rajlakshmi/Desktop/CCFCCricApp/Project/ViewModel/TeamViewModel.cs" relfile="Project/ViewModel/TeamViewModel.cs" line="142" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
